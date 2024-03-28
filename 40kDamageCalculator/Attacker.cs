@@ -8,17 +8,20 @@ namespace _40kDamageCalculator
 {
     internal class Attacker
     {
-        public int Attacks;
-        public int HitChance;
-        public int Strength;
-        public int Damage;
+        public int Attacks {  get; private set; }
+        public int HitChance { get; private set; }
+        public int Strength { get; private set; }
+        public int Damage { get; private set; }
+        public int ArmorPiercing { get; private set; }
 
-        public Attacker(int attacks, int hitChance, int strength, int damage)
+        public Attacker(int attacks, int hitChance, int strength, int damage, int armorPiercing)
         {
             Attacks = attacks;
             HitChance = hitChance;
             Strength = strength;
             Damage = damage;
+            ArmorPiercing = armorPiercing;
         }
+        public 
     }
 }
