@@ -42,6 +42,5 @@ namespace _40kDamageCalculator
         {
             ArmorPiercing = newArmorPiercingValue;
         }
-        public 
     }
 }
