@@ -26,7 +26,7 @@ namespace _40kDamageCalculator
             apTextBox.Text = _calculations.Attacker.ArmorPiercing.ToString();
             strengthTextBox.Text = _calculations.Attacker.Strength.ToString();
             healthtextBox.Text = _calculations.Defender.Health.ToString();
-            toughnesstextBox.Text = _calculations.Defender.Health.ToString();
+            toughnesstextBox.Text = _calculations.Defender.Toughness.ToString();
             armorDefenderTextBox.Text = _calculations.Defender.Armor.ToString();
             invSaveTextBox.Text = _calculations.Defender.InvSave.ToString();
             fnpTextBox.Text = _calculations.Defender.FeelNoPain.ToString();
